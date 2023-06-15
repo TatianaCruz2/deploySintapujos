@@ -27,13 +27,13 @@ app.use('/',eventosRouter);
 //ruta de persona
 app.use('/',personaRoutes);
 //Ruta comentarios
-app.use("/api", comentarioRoutes);
+app.use("/", comentarioRoutes);
 //Ruta cita
 app.use("/",citaRoutes);
 //Ruta citas
 app.use("/",citasRoutes);
 //Ruta recuperar
-app.use("/apirecuperar",recuperarContraseñaRouter);
+app.use("/",recuperarContraseñaRouter);
 
 
 //expor de app para poderlo utilizar en index
